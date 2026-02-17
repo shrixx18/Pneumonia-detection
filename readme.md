@@ -1,10 +1,10 @@
-# Pneumonia Detection System (Deep Learning + FastAPI)
+# Pneumonia Detection System
 
-This project is an **end-to-end Pneumonia Detection system** built using **Deep Learning (PyTorch)** for model development and **FastAPI** for model serving. It is designed both as a **deployable ML application** and covering training, inference, API serving, and explainability.
+This project is an **end-to-end Pneumonia Detection system** built using **PyTorch** for model development and **FastAPI** for model serving. It is designed both as a **deployable ML application** and covering training, inference, API serving, and explainability.
 
 ---
 
-## 1. Project Motivation (Interview Explanation)
+## 1. Project Motivation
 
 Pneumonia is a life‑threatening respiratory infection where **early diagnosis from chest X‑ray images** is critical. Manual diagnosis is time‑consuming and subject to inter‑observer variability.
 
@@ -74,7 +74,7 @@ Normalize(mean=[0.485, 0.456, 0.406],
           std=[0.229, 0.224, 0.225])
 ```
 
-### Why This Matters (Interview Point)
+### Why This Matters
 - Ensures compatibility with pretrained models
 - Improves numerical stability
 - Prevents shortcut learning from artifacts
